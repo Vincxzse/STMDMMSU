@@ -1,9 +1,9 @@
 import { MailtrapClient } from "mailtrap";
 
-const TOKEN = "920a06f6672916331cf60433d843bfa4";
+const TOKEN = "8af9da9c78ff794f6330816f637c24d3";
 const client = new MailtrapClient({ token: TOKEN });
 
-const sender = { email: "hello@demomailtrap.com", name: "DMMMSU" };
+const sender = { email: "DMMMSU@demomailtrap.com", name: "DMMMSU" };
 
 export const sendVerificationCode = async (email, code) => {
   const subject = "Your Verification Code";
